@@ -1,0 +1,18 @@
+// console.log('script');
+// let theName = prompt('Name: ');
+// let email = prompt('Email: ');
+// let password = prompt('Password: ');
+// let age = prompt('Age: ');
+// let country = prompt('Country: ');
+// let salary = prompt('Salary: ');
+// document.write(`<h3>welcome ${user_name}</h3>`);
+// console.log(theName);
+// console.log(email);
+// console.log(salary*12);
+let product = prompt('Product name: ');
+let quantity = prompt('Quantity: ');
+let price = prompt('Price: ');
+let tax = .16;
+document.write(`<h1>${product}</h1>`);
+let taxTotal = (price * quantity) * tax;
+document.write(`<p>Total: ${(price * quantity) + taxTotal}</p>`);
